@@ -1,0 +1,101 @@
+body {
+	background-color: black;
+}
+
+.title {
+	font-family: Glass Houses;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	text-align: center;
+}
+
+.center-text
+{
+    display: table;
+    margin: 0 auto;
+}
+
+.quote {
+	text-align: center;
+	font-size: 150%;
+	padding: 5px;
+}
+	
+h1, p, h2, ol, ul, li, figcaption {
+	color: white;
+}
+
+.hugeBrickWallOfText {
+	font-size: 100%;
+	width: 290px;
+    padding: 50px;
+    margin: 20px;
+	text-align: center;
+	
+}
+
+.chiefACE {
+	background-color: black;
+	text-align: center;
+	list-style-position: inside;
+}
+
+.mirrorImage{
+  transform: rotateY(180deg);
+}
+
+ol li {
+	font-size: 150%;
+}
+
+.sponsors {
+	text-align: center;
+    padding: 30px;
+}
+
+.sponsorsBackround {
+	background-color: #1A181A;
+}
+
+figure {
+	display: inline-block;
+	background-color: black;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 125%;
+	padding: 5px;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+    content: url("images/skull.jfif");
+}
+
+.logoHeader {
+    height: 120px;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+ @font-face { 
+	font-family: Arial-Distorted; 
+	src: url('fonts/Arial-Distorted.ttf'); 
+} 
+
+@font-face {
+	font-family: Glass Houses;
+	src: url('fonts/Glass Houses.ttf')
+}
+
+@font-face {
+	font-family: Erode;
+	src: url('fonts/Erode.ttf');
+}
